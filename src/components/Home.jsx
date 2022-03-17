@@ -4,7 +4,8 @@ import Course from "./Course";
 import Logpart from "./Logpart";
 
 
-function Home() {
+function Home({ isLoggedIn }) {
+
   return (
     <div className="home">
       <div class="container">
@@ -21,13 +22,13 @@ function Home() {
       </div>
 
       <center>
-    <h2 className="headquote">“Sometimes you climb out of bed in the morning and you think, I’m not going to make it, but you laugh inside — remembering all the times you’ve felt that way.” <br/><br/>— Charles Bukowski</h2>
-     </center> 
-     <img className="img"src={quoteimg} alt="error" />
+        <h2 className="headquote">“Sometimes you climb out of bed in the morning and you think, I’m not going to make it, but you laugh inside — remembering all the times you’ve felt that way.” <br /><br />— Charles Bukowski</h2>
+      </center>
+      <img className="img" src={quoteimg} alt="error" />
 
-     <Course />
-     <Logpart />
-     
+      <Course />
+      <Logpart isLoggedIn={isLoggedIn} />
+
     </div>
   );
 }
