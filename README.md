@@ -1,3 +1,24 @@
+## PROJECT NAME - The Nerve Guru
+
+## TEAM NAME - COBWEB
+#### Team Leader - Sumona Sarkar
+
+## Team Members
+Name | Skills
+--- | ---
+Sumona Sarkar | Frontend Developer
+Vivek Vaibhav | Full Stack Developer
+Vizan Sugee Verma | Frontend Developer
+
+# Problem Statement
+* An unhealthy mental state can act as a malnuitrition for the development of the budding teenagers and young adults. Studies have shown that a large margin of kids need a proper counselling and a psychic treatment.
+* So, how can we provide a medium, open and free to them so that they can freely express their views without any hesitation and according to the analysis of their mental state, a medical consultancy is to be provided.
+
+# Problem Solution
+* We have built a web app called “The Nerve Guru”. The outlook of the website is designed in a way to motivate the user to stay positive and calm and to normalize taking a mental advise during the hard phase.
+* The nerve guru is a chat bot that interacts live with the users and asks some predefined questions which are based on the top mental health surveys and on the basis of the user’s input, decide the apt measure to be taken.
+* Under serious conditions, it asks the user to contact a doctor to get a counselling or a mental health check-up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
